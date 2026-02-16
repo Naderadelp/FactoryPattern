@@ -6,6 +6,6 @@ class EmailNotification implements Notification
 {
     public function send($to, $message)
     {
-        logger("EMAIL sent to {$to}: {$message}");
+        echo "Email sent to {$to}: {$message}";
     }
 }

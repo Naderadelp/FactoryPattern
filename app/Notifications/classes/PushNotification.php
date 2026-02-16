@@ -6,6 +6,6 @@ class PushNotification implements Notification
 {
     public function send($to, $message)
     {
-        logger("PUSH notification sent to {$to}: {$message}");
+        echo "PUSH notification sent to {$to}: {$message}";
     }
 }
